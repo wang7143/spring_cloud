@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/OCR_Test/OCR_Test.iml" filepath="$PROJECT_DIR$/OCR_Test/OCR_Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway9527/gateway9527.iml" filepath="$PROJECT_DIR$/gateway9527/gateway9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix_dashboard9001/hystrix_dashboard9001.iml" filepath="$PROJECT_DIR$/hystrix_dashboard9001/hystrix_dashboard9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix_order80/hystrix_order80.iml" filepath="$PROJECT_DIR$/hystrix_order80/hystrix_order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix_payment8001/hystrix_payment8001.iml" filepath="$PROJECT_DIR$/hystrix_payment8001/hystrix_payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order80/order80.iml" filepath="$PROJECT_DIR$/order80/order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order80_consul/order80_consul.iml" filepath="$PROJECT_DIR$/order80_consul/order80_consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order80_feign/order80_feign.iml" filepath="$PROJECT_DIR$/order80_feign/order80_feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order80_zookeeper/order80_zookeeper.iml" filepath="$PROJECT_DIR$/order80_zookeeper/order80_zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment8001/payment8001.iml" filepath="$PROJECT_DIR$/payment8001/payment8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment8002/payment8002.iml" filepath="$PROJECT_DIR$/payment8002/payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment8004_zookeeper/payment8004_zookeeper.iml" filepath="$PROJECT_DIR$/payment8004_zookeeper/payment8004_zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payment8005_consul/payment8005_consul.iml" filepath="$PROJECT_DIR$/payment8005_consul/payment8005_consul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud.iml" filepath="$PROJECT_DIR$/spring_cloud.iml" />
+    </modules>
+  </component>
+</project>

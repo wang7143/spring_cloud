@@ -1,0 +1,43 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true   #开启动态创建路由功能
+      routes:
+        - id: payment_routh   #路由ID,配合服务名
+#          uri: http://localhost:8001  #服务地址
+          uri: lb://cloud-payment-service    #eruk 负载服务器地址
+          predicates:
+            - Path=/payment/get/**   #断言，找到该路径
+
+        - id: payment_routh2
+#          uri: http://localhost:8001
+          uri: lb://cloud-payment-service    #eruk 负载服务器地址
+          predicates:
+            - Path=/lb/**
+#            - After=2021-03-31T11:15:37.485+08:00[Asia/Shanghai]
+#            - Cookie=username,zzyy   #必须带cookie
+#            - Header=X-Request-Id, \d+  #请求头要有X-Request-Id属性，值为整数。
+
+
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+#  instance:
+#    instance-id: payment8001  #显示名称
+#    prefer-ip-address: true  #显示ID
+#    lease-renewal-interval-in-seconds: 1     #发送心跳时间
+#    lease-expiration-duration-in-seconds: 2  #服务端收到最后一次心跳后等待时间上限
+
+

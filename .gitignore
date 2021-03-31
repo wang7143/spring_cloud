@@ -1,0 +1,17 @@
+# Project exclude paths
+/cloud-api-commons/target/
+/cloud-eureka-server7001/target/
+/cloud-eureka-server7002/target/
+/gateway9527/target/
+/hystrix_dashboard9001/target/
+/hystrix_order80/target/
+/hystrix_payment8001/target/
+/OCR_Test/target/
+/order80/target/
+/order80_consul/target/
+/order80_feign/target/
+/order80_zookeeper/target/
+/payment8001/target/
+/payment8002/target/
+/payment8004_zookeeper/target/
+/payment8005_consul/target/

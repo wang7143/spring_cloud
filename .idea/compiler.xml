@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="payment8002" />
+        <module name="order80_zookeeper" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-api-commons" />
+        <module name="gateway9527" />
+        <module name="cloud-eureka-server7002" />
+        <module name="order80" />
+        <module name="payment8004_zookeeper" />
+        <module name="payment8005_consul" />
+        <module name="hystrix_order80" />
+        <module name="hystrix_dashboard9001" />
+        <module name="order80_feign" />
+        <module name="order80_consul" />
+        <module name="hystrix_payment8001" />
+        <module name="payment8005_zookeeper" />
+        <module name="OCR_Test" />
+        <module name="payment8001" />
+        <module name="order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="gateway9527" target="1.8" />
+      <module name="hystrix_dashboard9001" target="1.8" />
+      <module name="hystrix_order80" target="1.8" />
+      <module name="hystrix_payment8001" target="1.8" />
+      <module name="OCR_Test" target="1.8" />
+      <module name="order" target="1.8" />
+      <module name="order80" target="1.8" />
+      <module name="order80_consul" target="1.8" />
+      <module name="order80_feign" target="1.8" />
+      <module name="order80_zookeeper" target="1.8" />
+      <module name="payment8001" target="1.8" />
+      <module name="payment8002" target="1.8" />
+      <module name="payment8004_zookeeper" target="1.8" />
+      <module name="payment8005_consul" target="1.8" />
+      <module name="payment8005_zookeeper" target="1.8" />
+      <module name="spring_cloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
