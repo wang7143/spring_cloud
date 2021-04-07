@@ -86,4 +86,12 @@ public class PaymentCon {
         }
         return serverPort;
     }
+
+    @GetMapping("/payment/zip")
+    public String Zipkin()
+    {
+        return "this is a zipkin test";
+    }
+
+
 }

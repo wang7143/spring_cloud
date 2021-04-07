@@ -1,0 +1,40 @@
+server:
+  port: 33440
+
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wang7143/config.git
+          search-paths:
+            - springcloud_config
+          skip-ssl-validation: true
+        #          force-pull: true
+        default-label: main
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+#  instance:
+#    instance-id: payment8001  #显示名称
+#    prefer-ip-address: true  #显示ID
+#    lease-renewal-interval-in-seconds: 1     #发送心跳时间
+#    lease-expiration-duration-in-seconds: 2  #服务端收到最后一次心跳后等待时间上限
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"

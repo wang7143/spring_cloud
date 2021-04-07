@@ -1,0 +1,35 @@
+server:
+  port: 8401
+
+spring:
+  application:
+    name: cloud-alibaba-sentinel
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 172.21.250.108:1111
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        #如果被占用自动加1
+        prot: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 172.21.250.108:1111
+            dataId: cloud-alibaba-sentinel
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+feign:
+  sentinel:
+    enabled: true

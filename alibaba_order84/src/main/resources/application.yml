@@ -1,0 +1,25 @@
+server:
+  port: 84
+
+spring:
+  application:
+    name: cloud-alibaba-order84
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:1111
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        #如果被占用自动加1
+        prot: 8719
+
+
+service-url:
+  nacos-service: http://cloud-alibaba
+
+feign:
+  sentinel:
+    enabled: true
+
+

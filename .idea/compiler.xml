@@ -7,30 +7,59 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="payment8002" />
+        <module name="cloud-config-center3344" />
+        <module name="cloud_config_cclient3355" />
         <module name="order80_zookeeper" />
         <module name="cloud-eureka-server7001" />
-        <module name="cloud-api-commons" />
-        <module name="gateway9527" />
+        <module name="alibaba_sentinel_payment9004" />
         <module name="cloud-eureka-server7002" />
+        <module name="alibaba_sentinel_payment9003" />
         <module name="order80" />
+        <module name="cloud_stream_rabbitmq8801" />
         <module name="payment8004_zookeeper" />
         <module name="payment8005_consul" />
         <module name="hystrix_order80" />
-        <module name="hystrix_dashboard9001" />
-        <module name="order80_feign" />
+        <module name="cloud_sentinel8401" />
         <module name="order80_consul" />
         <module name="hystrix_payment8001" />
-        <module name="payment8005_zookeeper" />
+        <module name="cloud_config_client3366" />
         <module name="OCR_Test" />
         <module name="payment8001" />
         <module name="order" />
+        <module name="alibaba_payment9002" />
+        <module name="payment8002" />
+        <module name="cloud_stream_rabbitmq_client8803" />
+        <module name="cloud_stream_rabbitmq_client8804" />
+        <module name="alibaba_order83" />
+        <module name="gateway9527" />
+        <module name="alibaba_order84" />
+        <module name="alibaba_payment9001" />
+        <module name="hystrix_dashboard9001" />
+        <module name="order80_feign" />
+        <module name="alibaba-config-nacos3377" />
+        <module name="payment8005_zookeeper" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-config-nacos3377" target="1.8" />
+      <module name="alibaba_order83" target="1.8" />
+      <module name="alibaba_order84" target="1.8" />
+      <module name="alibaba_payment9001" target="1.8" />
+      <module name="alibaba_payment9002" target="1.8" />
+      <module name="alibaba_sentinel_payment9003" target="1.8" />
+      <module name="alibaba_sentinel_payment9004" target="1.8" />
       <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-config-center3344" target="1.8" />
       <module name="cloud-eureka-server7001" target="1.8" />
       <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud_config_cclient3355" target="1.8" />
+      <module name="cloud_config_client3355" target="1.8" />
+      <module name="cloud_config_client3366" target="1.8" />
+      <module name="cloud_sentinel8401" target="1.8" />
+      <module name="cloud_stream_rabbitmq8801" target="1.8" />
+      <module name="cloud_stream_rabbitmq_client8802" target="1.8" />
+      <module name="cloud_stream_rabbitmq_client8803" target="1.8" />
+      <module name="cloud_stream_rabbitmq_client8804" target="1.8" />
       <module name="gateway9527" target="1.8" />
       <module name="hystrix_dashboard9001" target="1.8" />
       <module name="hystrix_order80" target="1.8" />

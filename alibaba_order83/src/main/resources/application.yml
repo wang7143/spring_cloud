@@ -1,0 +1,16 @@
+server:
+  port: 83
+
+spring:
+  application:
+    name: cloud-alibaba-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+service-url:
+  nacos-service: http://cloud-alibaba
+
+
+

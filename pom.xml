@@ -9,7 +9,6 @@
     <modules>
         <module>payment8001</module>
         <module>order80</module>
-        <module>cloud-api-commons</module>
         <module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server7002</module>
         <module>payment8002</module>
@@ -23,6 +22,21 @@
         <module>OCR_Test</module>
         <module>hystrix_dashboard9001</module>
         <module>gateway9527</module>
+        <module>cloud-config-center3344</module>
+        <module>cloud_config_client3366</module>
+        <module>cloud_config_cclient3355</module>
+        <module>cloud_stream_rabbitmq8801</module>
+
+        <module>cloud_stream_rabbitmq_client8803</module>
+        <module>cloud_stream_rabbitmq_client8804</module>
+        <module>alibaba_payment9001</module>
+        <module>alibaba_payment9002</module>
+        <module>alibaba_order83</module>
+        <module>alibaba-config-nacos3377</module>
+        <module>cloud_sentinel8401</module>
+        <module>alibaba_order84</module>
+        <module>alibaba_sentinel_payment9003</module>
+        <module>alibaba_sentinel_payment9004</module>
     </modules>
     <name>demo</name>
     <description>Demo project for Spring cloud</description>
@@ -41,6 +55,8 @@
 
     <dependencyManagement>
         <dependencies>
+
+
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -52,7 +68,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Hoxton.SR10</version>
+                <version>Hoxton.SR9</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -92,11 +108,7 @@
                 <scope>provided</scope>
             </dependency>
 
-            <dependency>
-                <groupId>cloud</groupId>
-                <artifactId>cloud-api-commons</artifactId>
-                <version>${project.version}</version>
-            </dependency>
+
 
         </dependencies>
     </dependencyManagement>

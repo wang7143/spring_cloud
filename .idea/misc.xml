@@ -8,6 +8,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-api-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_config_client3355/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_stream_rabbitmq_client8802/pom.xml" />
         <option value="$PROJECT_DIR$/order/pom.xml" />
         <option value="$PROJECT_DIR$/payment8005_zookeeper/pom.xml" />
       </set>

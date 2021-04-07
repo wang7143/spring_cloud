@@ -1,0 +1,11 @@
+spring:
+  profiles:
+#    active: info
+#    active: test
+    active: dev
+
+#service-url:
+#  nacos-service: http://cloud-alibaba
+
+
+

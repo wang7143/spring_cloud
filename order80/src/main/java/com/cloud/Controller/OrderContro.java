@@ -57,4 +57,10 @@ public class OrderContro {
         String instanceId = instance.getInstanceId();
         return restTemplate.getForObject(uri + "/lb",String.class);
     }
+
+    @GetMapping("/consumer/zip")
+    public String payZIP(){
+        String forObject = restTemplate.getForObject("http://localhost:8001" + "/payment/zip/", String.class);
+        return forObject;
+    }
 }

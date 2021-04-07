@@ -3,9 +3,22 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OCR_Test/OCR_Test.iml" filepath="$PROJECT_DIR$/OCR_Test/OCR_Test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba-config-nacos3377/alibaba-config-nacos3377.iml" filepath="$PROJECT_DIR$/alibaba-config-nacos3377/alibaba-config-nacos3377.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba_order83/alibaba_order83.iml" filepath="$PROJECT_DIR$/alibaba_order83/alibaba_order83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba_order84/alibaba_order84.iml" filepath="$PROJECT_DIR$/alibaba_order84/alibaba_order84.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba_payment9001/alibaba_payment9001.iml" filepath="$PROJECT_DIR$/alibaba_payment9001/alibaba_payment9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba_payment9002/alibaba_payment9002.iml" filepath="$PROJECT_DIR$/alibaba_payment9002/alibaba_payment9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba_sentinel_payment9003/alibaba_sentinel_payment9003.iml" filepath="$PROJECT_DIR$/alibaba_sentinel_payment9003/alibaba_sentinel_payment9003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alibaba_sentinel_payment9004/alibaba_sentinel_payment9004.iml" filepath="$PROJECT_DIR$/alibaba_sentinel_payment9004/alibaba_sentinel_payment9004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" filepath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" filepath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_config_cclient3355/cloud_config_cclient3355.iml" filepath="$PROJECT_DIR$/cloud_config_cclient3355/cloud_config_cclient3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_config_client3366/cloud_config_client3366.iml" filepath="$PROJECT_DIR$/cloud_config_client3366/cloud_config_client3366.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_sentinel8401/cloud_sentinel8401.iml" filepath="$PROJECT_DIR$/cloud_sentinel8401/cloud_sentinel8401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_stream_rabbitmq8801/cloud_stream_rabbitmq8801.iml" filepath="$PROJECT_DIR$/cloud_stream_rabbitmq8801/cloud_stream_rabbitmq8801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_stream_rabbitmq_client8803/cloud_stream_rabbitmq_client8803.iml" filepath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8803/cloud_stream_rabbitmq_client8803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_stream_rabbitmq_client8804/cloud_stream_rabbitmq_client8804.iml" filepath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8804/cloud_stream_rabbitmq_client8804.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway9527/gateway9527.iml" filepath="$PROJECT_DIR$/gateway9527/gateway9527.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix_dashboard9001/hystrix_dashboard9001.iml" filepath="$PROJECT_DIR$/hystrix_dashboard9001/hystrix_dashboard9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix_order80/hystrix_order80.iml" filepath="$PROJECT_DIR$/hystrix_order80/hystrix_order80.iml" />

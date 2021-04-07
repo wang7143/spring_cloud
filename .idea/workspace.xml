@@ -5,8 +5,251 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2be7d65-a8a6-4a36-a70d-5015f1f84616" name="Default Changelist" comment="spring">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cloud_cloud_api_commons_0_0_1_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_commons_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_circuitbreaker_sentinel_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_discovery_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_nacos_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webmvc_adapter_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_71.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_api_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_client_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_nacos_nacos_common_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_http_client_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_prometheus_simpleclient_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_slf4j_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_jms_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_streams_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_messaging_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_rpc_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_12_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_brave_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_activemq_client_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka_2_15_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_21_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jodah_typetools_0_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_example_api_commons_1_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_bus_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_core_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_discovery_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_discovery_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_stream_rabbit_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_binder_rabbit_core_3_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_amqp_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-nacos3377/alibaba-config-nacos3377.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-nacos3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-nacos3377/src/main/java/com/cloud/Contorller/contro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-nacos3377/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-nacos3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order83/alibaba_order83.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order83/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order83/src/main/java/com/cloud/Config/myconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order83/src/main/java/com/cloud/Contorller/contro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order83/src/main/java/com/cloud/alibaba_order83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order83/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order84/alibaba_order84.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order84/src/main/java/com/cloud/Alibaba_order84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order84/src/main/java/com/cloud/Config/myconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order84/src/main/java/com/cloud/Contorller/contro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order84/src/main/java/com/cloud/service/FenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order84/src/main/java/com/cloud/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_order84/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9001/alibaba_payment9001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9001/src/main/java/com/cloud/Contorller/contro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9001/src/main/java/com/cloud/alibaba_payment9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9002/alibaba_payment9002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9002/src/main/java/com/cloud/Alibaba_payment9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9002/src/main/java/com/cloud/Contorller/contro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9003/alibaba_sentinel_payment9003.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9003/src/main/java/com/cloud/Alibaba_payment9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9003/src/main/java/com/cloud/Contorller/contro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9004/alibaba_sentinel_payment9004.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9004/src/main/java/com/cloud/Alibaba_payment9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9004/src/main/java/com/cloud/Contorller/contro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba_sentinel_payment9004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_cclient3355/cloud_config_cclient3355.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_cclient3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_cclient3355/src/main/java/com/cloud/Cloud_config_client3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_cclient3355/src/main/java/com/cloud/Controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_cclient3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_client3366/cloud_config_client3366.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_client3366/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_client3366/src/main/java/com/cloud/Cloud_config_client3366.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_client3366/src/main/java/com/cloud/Controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_config_client3366/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_sentinel8401/cloud_sentinel8401.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_sentinel8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_sentinel8401/src/main/java/com/cloud/Alibaba_sentine8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_sentinel8401/src/main/java/com/cloud/Contorller/RateLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_sentinel8401/src/main/java/com/cloud/Contorller/contro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_sentinel8401/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq8801/cloud_stream_rabbitmq8801.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq8801/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq8801/src/main/java/com/cloud/Controller/MessageCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq8801/src/main/java/com/cloud/Service/MessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq8801/src/main/java/com/cloud/Service/imp/MessageImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq8801/src/main/java/com/cloud/StreamMQMain8801.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq8801/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8803/cloud_stream_rabbitmq_client8803.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8803/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8803/src/main/java/com/cloud/Controller/MessageCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8803/src/main/java/com/cloud/StreamMQ_client8803.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8803/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8804/cloud_stream_rabbitmq_client8804.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8804/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8804/src/main/java/com/cloud/Controller/MessageCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8804/src/main/java/com/cloud/StreamMQ_client8804.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud_stream_rabbitmq_client8804/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix_order80/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinel/sentinel-dashboard-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zipkin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_10_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_10_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_10_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_10_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_core_2_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_consul_discovery_2_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_loadbalancer_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_2_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_consul_discovery_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_2_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_bus_amqp_2_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cloud/entities/CommoResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cloud/entities/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway9527/gateway9527.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway9527/gateway9527.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix_dashboard9001/hystrix_dashboard9001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix_dashboard9001/hystrix_dashboard9001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix_order80/hystrix_order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix_order80/hystrix_order80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix_payment8001/hystrix_payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix_payment8001/hystrix_payment8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix_payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix_payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hystrix_payment8001/src/main/java/com/cloud/Controller/PaymentCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/hystrix_payment8001/src/main/java/com/cloud/Controller/PaymentCon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order80/order80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/src/main/java/com/cloud/Controller/OrderContro.java" beforeDir="false" afterPath="$PROJECT_DIR$/order80/src/main/java/com/cloud/Controller/OrderContro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80_consul/order80_consul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order80_consul/order80_consul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80_consul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order80_consul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80_feign/order80_feign.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order80_feign/order80_feign.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80_feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order80_feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80_zookeeper/order80_zookeeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/order80_zookeeper/order80_zookeeper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80_zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order80_zookeeper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/payment8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/src/main/java/com/cloud/Controller/PaymentCon.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/java/com/cloud/Controller/PaymentCon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8002/payment8002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8002/payment8002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8002/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8004_zookeeper/payment8004_zookeeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8004_zookeeper/payment8004_zookeeper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8004_zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8004_zookeeper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8005_consul/payment8005_consul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8005_consul/payment8005_consul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8005_consul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8005_consul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +279,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/alibaba_sentinel_payment9004/src/main/java/com/cloud/Contorller/contro.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/alibaba_sentinel_payment9003/src/main/java/com/cloud/Contorller/contro.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud_sentinel8401/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud_sentinel8401/src/main/java/com/cloud/Alibaba_sentine8401.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud_sentinel8401/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud_sentinel8401/src/main/java/com/cloud/Contorller/RateLimitController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud_sentinel8401/src/main/java/com/cloud/Contorller/contro.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/alibaba_sentinel_payment9003/src/main/java/com/cloud/Alibaba_payment9003.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/alibaba_order84/src/main/java/com/cloud/service/FenService.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/alibaba_order84/src/main/java/com/cloud/Contorller/contro.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -44,23 +299,27 @@
     </option>
   </component>
   <component name="ProjectId" id="1qC2peSc3k9ONTqsVkRZBa2Efco" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway9527/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cloud-api-commons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,25 +329,26 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.nnthink.aixcoder.config.Config" />
+    <property name="project.structure.side.proportion" value="0.3201472" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\QQ文件接收\spring_cloud\gateway9527\src\main" />
-      <recent name="D:\QQ文件接收\spring_cloud\gateway9527\src\main\resources" />
-      <recent name="D:\QQ文件接收\spring_cloud\hystrix_dashboard9001\src\main" />
-      <recent name="D:\QQ文件接收\spring_cloud\hystrix_dashboard9001\src\main\resources" />
-      <recent name="D:\QQ文件接收\spring_cloud\hystrix_order80\src\main" />
+      <recent name="D:\QQ文件接收\spring_cloud\alibaba_order84\src\main\resources" />
+      <recent name="D:\QQ文件接收\spring_cloud\alibaba_order84\src\main" />
+      <recent name="D:\QQ文件接收\spring_cloud\alibaba_sentinel_payment9004\src\main" />
+      <recent name="D:\QQ文件接收\spring_cloud\alibaba_sentinel_payment9003\src\main" />
+      <recent name="D:\QQ文件接收\spring_cloud\alibaba_sentinel_payment9004\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\QQ文件接收\spring_cloud\payment8001\src" />
       <recent name="D:\QQ文件接收\spring_cloud\payment8001\src\" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloud.Config" />
       <recent name="" />
       <recent name="cloud" />
     </key>
@@ -100,42 +360,90 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Gateway9527">
-    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileUtils" />
-      <module name="OCR_Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pdfToImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pdfToImage" />
-      <module name="OCR_Test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Gateway9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="gateway9527" />
+  <component name="RunManager" selected="Spring Boot.Alibaba_sentine8401">
+    <configuration name="Alibaba_config83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-config-nacos3377" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Alibaba_config83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alibaba_order84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba_order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Alibaba_order84" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alibaba_payment9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba_sentinel_payment9003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Alibaba_payment9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alibaba_payment9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba_sentinel_payment9004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Alibaba_payment9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Alibaba_sentine8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_sentinel8401" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Alibaba_sentine8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cloud_config3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-center3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Cloud_config3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cloud_config_client3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_config_cclient3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Cloud_config_client3355" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cloud_config_client3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_config_client3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Cloud_config_client3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gateway9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway9527" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Gateway9527" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,14 +456,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hystrix_PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="Hystrix_PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hystrix_payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Hystrix_PaymentMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,15 +526,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerMain7002 " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+    <configuration name="ServerMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.ServerMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_stream_rabbitmq8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.StreamMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQ_client8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_stream_rabbitmq_client8803" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.StreamMQ_client8803" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQ_client8804" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud_stream_rabbitmq_client8804" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.StreamMQ_client8804" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alibaba_order83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba_order83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.alibaba_order83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alibaba_payment9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba_payment9001" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.ServerMain7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.alibaba_payment9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="alibaba_payment9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba_payment9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.Alibaba_payment9002" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -247,11 +591,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Gateway9527" />
-        <item itemvalue="Application.FileUtils" />
-        <item itemvalue="Application.pdfToImage" />
-        <item itemvalue="Spring Boot.Hystrix_PaymentMain8001" />
-        <item itemvalue="Spring Boot.ServerMain7002 " />
+        <item itemvalue="Spring Boot.alibaba_payment9001" />
+        <item itemvalue="Spring Boot.Alibaba_payment9004" />
+        <item itemvalue="Spring Boot.Alibaba_payment9003" />
+        <item itemvalue="Spring Boot.Alibaba_order84" />
+        <item itemvalue="Spring Boot.Alibaba_config83" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +615,19 @@
       <workItem from="1617017854185" duration="318000" />
       <workItem from="1617018219242" duration="14485000" />
       <workItem from="1617086352654" duration="1370000" />
-      <workItem from="1617088818654" duration="24648000" />
+      <workItem from="1617088818654" duration="41393000" />
+      <workItem from="1617263384130" duration="1684000" />
+      <workItem from="1617265403925" duration="838000" />
+      <workItem from="1617266272117" duration="4958000" />
+      <workItem from="1617277070629" duration="9865000" />
+      <workItem from="1617332652123" duration="5632000" />
+      <workItem from="1617341205234" duration="41688000" />
+      <workItem from="1617515252861" duration="1413000" />
+      <workItem from="1617517012544" duration="49179000" />
+      <workItem from="1617769986738" duration="3690000" />
+      <workItem from="1617773749213" duration="947000" />
+      <workItem from="1617774778610" duration="13770000" />
+      <workItem from="1617795915178" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="spring">
       <created>1617175806369</created>
@@ -287,11 +643,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617176175147</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring">
+      <created>1617176943784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617176943784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -340,12 +706,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="spring" />
     <option name="LAST_COMMIT_MESSAGE" value="spring" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hystrix_order80/src/test/java/test.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hystrix_order80/src/test/java/test.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((BasicHttpEntity)((BasicManagedEntity)((BasicHttpResponse)response).entity).wrappedEntity).content" custom="org.apache.http.conn.BasicManagedEntity,org.apache.http.message.BasicHttpResponse,org.apache.http.entity.BasicHttpEntity" />
